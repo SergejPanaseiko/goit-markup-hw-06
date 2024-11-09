@@ -12,33 +12,109 @@
 </head>
 <body>
     <header class="header">
-        <div class="container header-container">
-        <nav class="header-navigation">
-            <a class="header-logo" href="./index.html"> Web<span class="header-logo-blue">Studio</span></a>
-            <ul class="header-menu-list">
-                <li class="header-menu-item"><a class="header-menu-link" href="./index.html">Studio</a></li>
-                <li class="header-menu-item"><a class="header-menu-link" href="">Portfolio</a></li>
-                <li class="header-menu-item"><a class="header-menu-link" href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <address class="header-contact">
-            <ul class="header-contact-list">
-                <li class="header-contact-item"><a class="header-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>            
-                <li class="header-contact-item"><a class="header-contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
-        </div>
+        <div class="header-container">
+            <div class="header-logo-mobi">
+                <nav class="header-navigation">
+                    <a class="header-logo" href="./index.html"> Web<span class="header-logo-span">Studio</span></a>
+                    <ul class="header-menu-list">
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="./index.html">Studio</a></li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="">Portfolio</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="header-contact" id="contact">
+                    <ul class="header-contact-list">
+                        <li class="header-contact-item">
+                            <a class="header-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>            
+                        <li class="header-contact-item">
+                            <a class="header-contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                    </ul>
+                </address>            
+                <button type="button" class="header-menu-open-btn-mobi">
+                    <svg class="header-svg-line-mobi"  width="24" height="24"><use href="./images/icons.svg#icon-Three-line-2"></use></svg>
+                </button>                 
+            </div>
+        <!-- -------------MOBI------------------ -->
+            <div class="mobi-menu">                
+                    <button type="button" class="menu-close-btn"><svg class="menu-icon-cross-mobi" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close-black"></use>
+                            </svg>
+                    </button>
+                <div class="wrap">
+                <div class="mobi-top">
+                    <ul class="mobi-menu-list">
+                        <li class="mobi-menu-item">
+                            <a href="./index.html" class="mobi-menu-link">Studio</a>
+                        </li>
+                        <li class="mobi-menu-item">
+                            <a href="#portfol" class="mobi-menu-link">Portfolio</a>
+                        </li>
+                        <li class="mobi-menu-item">
+                            <a href="#contact" class="mobi-menu-link">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobi-bottom">
+                    <ul class="mobi-address-menu-list">
+                        <li>
+                            <a href="tel:+110001111111" class="mobi-menu-address-link">+11 (000) 111-11-11</a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@devstudio.com" class="mobi-menu-address-link">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                    <ul class="menu-soc-icon-mobi">
+                        <li class="footer-box-icon">
+                            <a href="" class="footer-link-icon">
+                                <svg class="footer-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-box-icon">
+                            <a href="" class="footer-link-icon">
+                                <svg class="footer-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-box-icon">
+                            <a href="" class="footer-link-icon">
+                                <svg class="footer-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-box-icon">
+                            <a href="" class="footer-link-icon">
+                                <svg class="footer-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>            
+        </div>        
     </header>
     <main>
         <section class="solutions">
-            <div class="container">
+            <div class="solutions-container">
                 <h1 class="solution-subtitle">Effective Solutions for Your Business</h1>
                 <button class="solutions-btn" type="button">Order Service</button>
             </div>
         </section>
         <section class="mission">
-            <div class="container">
-            <h2 class="visually-hidden">Мission</h2>
+            <div class="container-narrow">
+            <h2 class="mission-visually-hidden">Мission</h2>
             <ul class="mission-list">
                 <li class="mission-item">
                     <div class="mission-item-svg"><svg class="mission-item-icon" width="64" height="64"><use href="./images/icons.svg#icon-antenna_1"></use></svg></div>
@@ -72,18 +148,14 @@
         </section>
 <!-- --------------------- TEAM -------------------- -->
         <section class="team">
-            <div class="container">
+            <div class="team-container">
             <h2 class="team-subtitle-two">Our Team</h2>
             <ul class="team-list">
                 <li class="team-item">
                     <div class="team-cover-wrapper">                        
-                        <img  class="team-pict" src="./images/taste-img-1-min.jpg" alt="Mark Guerrero" width="264" height="260">                        
+                        <img  class="team-pict" srcset="./images/taste-img-1-2x-min.jpg 2x" 
+                        src="./images/taste-img-1-min.jpg" alt="Mark Guerrero" width="264" height="260">                        
                     </div>                
-                    <!-- <p class="team-cover-text">
-                        В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для
-                        распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в
-                        электронный дизайн.
-                    </p> -->
                     <div class="team-item-text">
                         <h3 class="team-subtitle-three">Mark Guerrero</h3>
                         <p class="team-text">Product Designer</p>
@@ -121,13 +193,9 @@
                 </li> 
                 <li class="team-item">
                     <div class="team-cover-wrapper">
-                        <img class="team-pict" src="./images/taste-img-2-min.jpg" alt="Tom Ford" width="264" height="260">
+                        <img class="team-pict"  srcset="./images/taste-img-2-min-2x.jpg 2x"
+                        src="./images/taste-img-2-min.jpg" alt="Tom Ford" width="264" height="260">
                     </div>
-                    <!-- <p class="team-cover-text">
-                        В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для
-                        распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в
-                        электронный дизайн.
-                    </p> -->
                     <div class="team-item-text">
                         <h3 class="team-subtitle-three">Tom Ford</h3>
                         <p class="team-text">Frontend Developer</p>
@@ -165,13 +233,9 @@
                 </li>
                 <li class="team-item">
                     <div class="team-cover-wrapper">
-                    <img  class="team-pict" src="./images/taste-img-3-min.jpg" alt="Camila Garcia" width="264" height="260">
+                    <img  class="team-pict" srcset="./images/taste-img-3-min-2x.jpg 2x" 
+                    src="./images/taste-img-3-min.jpg" alt="Camila Garcia" width="264" height="260">
                     </div>
-                    <!-- <p class="team-cover-text">
-                        В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для
-                        распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в
-                        электронный дизайн.
-                    </p> -->
                     <div class="team-item-text">
                         <h3 class="team-subtitle-three">Camila Garcia</h3>
                         <p class="team-text">Marketing</p>
@@ -209,7 +273,9 @@
                 </li>
                 <li class="team-item">
                     <div class="team-cover-wrapper">
-                    <img  class="team-pict" src="./images/taste-img-4-min.jpg" alt="Daniel Wilson" width="264" height="260">
+                    <img  class="team-pict" 
+                    srcset="./images/taste-img-4-min-2x.jpg 2x" 
+                    src="./images/taste-img-4-min.jpg" alt="Daniel Wilson" width="264" height="260">
                     </div>
                     <div class="team-item-text">
                         <h3 class="team-subtitle-three">Daniel Wilson</h3>
@@ -252,13 +318,25 @@
 
 <!-- =============PORTFOLIO============== -->
 
-        <section class="portfolio">
-            <div class="container">
+        <section class="portfolio" id="portfol">
+            <div class="portfolio-container">
             <h2 class="portfolio-two">Our Portfolio</h2>
             <ul class="portfolio-list">
                 <li class="portfolio-item">   
                     <div class="portfolio-cover-wrapper">   
-                        <img class="portfolio-pict" src="./images/taste-img-5-min.jpg" alt="Banking App" width="360" height="300">
+                        <picture>
+                            <source
+                                srcset="./images/portfolio-desktop-1-1x-min.jpg 1x,
+                                ./images/portfolio-desktop-1-2x-min.jpg 2x
+                                media=(min-width: 1158px)"/>
+                            <source srcset="./images/portfolio-tablet-1-1x-min.jpg 1x,
+                                ./images/portfolio-tablet-1-2x-min.jpg 2x
+                                media=(min-width: 768px)" />
+                            <source srcset="./images/portfolio-mobi-1-1x-min.jpg 1x,
+                                ./images/portfolio-mobi-1-2x-min.jpg 2x
+                                media=(max-width: 767px)" />
+                            <img class="portfolio-pict" src="./images/taste-img-5-min.jpg" alt="Banking App" width="360" height="300">
+                        </picture>
                         <p class="portfolio-cover-text">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                             Cloud Storage App
@@ -271,7 +349,15 @@
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-cover-wrapper">
-                        <img class="portfolio-pict" src="./images/taste-img-6-min.jpg" alt="Cashless Payment" width="360" height="300">
+                        <picture>
+                            <source srcset="./images/portfolio-desktop-2-1x-min.jpg 1x,
+                                ./images/portfolio-desktop-2-2x-min.jpg 2x media=(min-width: 1158px)" />
+                            <source srcset="./images/portfolio-tablet-2-1x-min.jpg 1x,
+                                ./images/portfolio-tablet-2-2x-min.jpg 2x media=(min-width: 768px)" />
+                            <source srcset="./images/portfolio-mobi-2-1x-min.jpg 1x,
+                                ./images/portfolio-mobi-2-2x-min.jpg 2x media=(max-width: 767px)" />
+                            <img class="portfolio-pict" src="./images/taste-img-6-min.jpg" alt="Cashless Payment" width="360" height="300">
+                        </picture>                        
                         <p class="portfolio-cover-text">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                             App ·
@@ -285,7 +371,15 @@
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-cover-wrapper">
-                        <img class="portfolio-pict" src="./images/taste-img-7-min.jpg" alt="Meditation App" width="360" height="300">
+                        <picture>
+                            <source srcset="./images/portfolio-desktop-3-1x-min.jpg 1x,
+                                ./images/portfolio-desktop-3-2x-min.jpg 2x media=(min-width: 1158px)" />
+                            <source srcset="./images/portfolio-tablet-3-1x-min.jpg 1x,
+                                ./images/portfolio-tablet-3-2x-min.jpg 2x media=(min-width: 768px)" />
+                            <source srcset="./images/portfolio-mobi-3-1x-min.jpg 1x,
+                                ./images/portfolio-mobi-3-2x-min.jpg 2x media=(max-width: 767px)" />
+                            <img class="portfolio-pict" src="./images/taste-img-7-min.jpg" alt="Meditation App" width="360" height="300">
+                        </picture>
                         <p class="portfolio-cover-text">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                             App ·
@@ -299,7 +393,15 @@
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-cover-wrapper">
-                        <img class="portfolio-pict" src="./images/taste-img-8-min.jpg" alt="Taxi Service" width="360" height="300">
+                        <picture>
+                            <source srcset="./images/portfolio-desktop-4-1x-min.jpg 1x,
+                                ./images/portfolio-desktop-4-2x-min.jpg 2x media=(min-width: 1158px)" />
+                            <source srcset="./images/portfolio-tablet-4-1x-min.jpg 1x,
+                                ./images/portfolio-tablet-4-2x-min.jpg 2x media=(min-width: 768px)" />
+                            <source srcset="./images/portfolio-mobi-4-1x-min.jpg 1x,
+                                ./images/portfolio-mobi-4-2x-min.jpg 2x media=(max-width: 767px)" />
+                            <img class="portfolio-pict" src="./images/taste-img-8-min.jpg" alt="Taxi Service" width="360" height="300">
+                        </picture>
                         <p class="portfolio-cover-text">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                             App ·
@@ -313,7 +415,15 @@
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-cover-wrapper">
-                    <img class="portfolio-pict" src="./images/taste-img-9-min.jpg" alt="Screen Illustrations" width="360" height="300">
+                    <picture>
+                        <source srcset="./images/portfolio-desktop-5-1x-min.jpg 1x,
+                        ./images/portfolio-desktop-5-2x-min.jpg 2x media=(min-width: 1158px)" />
+                        <source srcset="./images/portfolio-tablet-5-1x-min.jpg 1x,
+                        ./images/portfolio-tablet-5-2x-min.jpg 2x media=(min-width: 768px)" />
+                        <source srcset="./images/portfolio-mobi-5-1x-min.jpg 1x,
+                        ./images/portfolio-mobi-5-2x-min.jpg 2x media=(max-width: 767px)" />
+                        <img class="portfolio-pict" src="./images/taste-img-9-min.jpg" alt="Screen Illustrations" width="360" height="300">
+                    </picture>
                     <p class="portfolio-cover-text">
                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                         App ·
@@ -327,7 +437,15 @@
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-cover-wrapper">
-                    <img class="portfolio-pict" src="./images/taste-img-10-min.jpg" alt="Online Courses" width="360" height="300">
+                    <picture>
+                        <source srcset="./images/portfolio-desktop-6-1x-min.jpg 1x,
+                        ./images/portfolio-desktop-6-2x-min.jpg 2x media=(min-width: 1158px)" />
+                        <source srcset="./images/portfolio-tablet-6-1x-min.jpg 1x,
+                        ./images/portfolio-tablet-6-2x-min.jpg 2x media=(min-width: 768px)" />
+                        <source srcset="./images/portfolio-mobi-6-1x-min.jpg 1x,
+                        ./images/portfolio-mobi-6-2x-min.jpg 2x media=(max-width: 767px)" />
+                        <img class="portfolio-pict" src="./images/taste-img-10-min.jpg" alt="Online Courses" width="360" height="300">
+                    </picture>                    
                     <p class="portfolio-cover-text">
                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                         App ·
@@ -342,12 +460,12 @@
             </ul>
             </div>
         </section>
-    </main>
+    </main> 
     <!-- --------------FOOTER-------------- -->
     <footer class="footer-main">    
         <div class="container footer-box"> 
                     <div class="footer-logo" >
-                        <a class="footer-link" href="./index.html">Web<span class="footer-logo-blue">Studio</span></a>
+                        <div class="footer-logo-link"><a class="footer-link" href="./index.html">Web<span class="footer-logo-blue">Studio</span></a></div>
                         <p class="footer-text">
                             Increase the flow of customers and sales for your business with digital marketing & growth solutions.
                         </p>    
@@ -394,13 +512,14 @@
                             <button type="submit" class="footer-form-btn">Subscribe 
                                 <svg width="24" height="24" class="footer-menu-svg">
                                     <use href="./images/icons.svg#icon-icon-send">       
-                                    </use></svg>
+                                    </use>
+                                </svg>
                             </button>
                         </form>                      
                     </div>
         </div>        
     </footer>   
-    <div class="backdrop">
+    <div class="backdrop  is-open">
         <div class="modal">
             <button type="button" class="modal-open" title="qwerty">
                 <svg class="form-icon-cross" width="8" height="8">
@@ -438,14 +557,21 @@
                     <label for="user-comment" class="modal-name">Comment</label>
                     <textarea name="user-comment" id="user-comment" class="modal-textarea" placeholder="Text input"></textarea>
                 </div>
-                <div class="modal-field-check">
-                    <input type="checkbox" id="user-privacy" class="checkbox visually-hidden" value="true" name="user-privacy"/>
-                    <label for="user-privacy" class="modal-check-text"><span class="modal-form-span"><svg width="10" height="8"><use href="./images/icons.svg#icon-Flag-1"></use></svg></span>I accept the terms and conditions of the<a href="#" class="modal-check-link">Privacy Policy</a></label>
-                </div>
+                <div class="modal-field">
+                    <input type="checkbox" id="policy" class="modal-check mission-visually-hidden" value="true" name="policy"/>
+                    <label for="policy" class="modal-check-text">
+                        <span>
+                            <svg class="modal-check-icon" width="8" height="8">
+                                <use href="./images/icons.svg#icon-check"></use>
+                            </svg>
+                        </span>
+                            I accept the terms and conditions of the
+                        <a href="#" class="modal-check-link">Privacy Policy</a>
+                    </label>
+                </div>                
                 <button type="submit" class="modal-btn">Send</button>
             </form>
         </div>
     </div>
 </body>
 </html>
-
